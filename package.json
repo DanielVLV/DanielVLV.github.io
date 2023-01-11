@@ -1,0 +1,25 @@
+{
+  "name": "core-css-layout-site",
+  "version": "1.0.0",
+  "description": "Продолжим создавать оригинальные веб-страницы. Теперь тебе предстоит создать собственный сайт!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elbrus-Bootcamp/core-css-layout-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Elbrus-Bootcamp/core-css-layout-site/issues"
+  },
+  "homepage": "https://github.com/Elbrus-Bootcamp/core-css-layout-site#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "pretty-quick": "^3.1.3"
+  }
+}
