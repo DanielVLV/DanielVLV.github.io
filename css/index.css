@@ -1,3 +1,34 @@
+@font-face {
+  font-family: 'IBMPlexMono-Bold';
+  src: url(../font/IBMPlexMono-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Light';
+  src: url(../font/IBMPlexMono-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Medium';
+  src: url(../font/IBMPlexMono-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Regular';
+  src: url(../font/IBMPlexMono-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-SemiBold';
+  src: url(../font/IBMPlexMono-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'IBMPlexMono-Thin';
+  src: url(../font/IBMPlexMono-Thin.ttf) format('ttf');
+}
+
+
 body {
   margin: 0;
 }
@@ -112,21 +143,21 @@ a:hover {
 .img1 {
   width: 322px;
   height: 182px;
-  background: url(/img/1.png);
+  background: url(../img/1.png);
   border-radius: 15px;
 }
 
 .img2 {
   width: 322px;
   height: 182px;
-  background: url(/img/2.png);
+  background: url(../img/2.png);
   border-radius: 15px;
 }
 
 .img3 {
   width: 322px;
   height: 182px;
-  background: url(/img/3.png);
+  background: url(../img/3.png);
   border-radius: 15px;
 }
 
@@ -153,21 +184,21 @@ a:hover {
 .img4 {
   width: 322px;
   height: 485px;
-  background: url(/img/4.png);
+  background: url(../img/4.png);
   border-radius: 15px;
 }
 
 .img5 {
   width: 322px;
   height: 485px;
-  background: url(/img/5.png);
+  background: url(../img/5.png);
   border-radius: 15px;
 }
 
 .img6 {
   width: 322px;
   height: 485px;
-  background: url(/img/6.png);
+  background: url(../img/6.png);
   border-radius: 15px;
 }
 
