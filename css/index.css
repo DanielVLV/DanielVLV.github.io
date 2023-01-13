@@ -27,7 +27,8 @@
   font-family: "IBMPlexMono-Thin";
   src: url(../font/IBMPlexMono-Thin.ttf) format("ttf");
 }
-header {
+
+.header {
   background: #4520ab;
 }
 
@@ -280,6 +281,35 @@ p:hover {
   .postors1,
   .postors2 {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width:768px) {
+
+  .myKino, .shop, .myShop {
+    font-size: 10px;
+    margin: 0 7px 0 0;
+  }
+}
+
+@media (max-width:768px) {
+
+  .logoImg {
+    width: 60px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .search {
+    width: 15px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .photo {
+    width: 20px;
   }
 }
 
