@@ -41,6 +41,7 @@ body {
 }
 
 .header {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -330,13 +331,13 @@ p:hover {
 
 @media (max-width:768px) {
   .navigation {
-    margin: 0 0 60px 60px;
+    margin: 0 0 60px 0;
   }
 }
 
 
 @media (max-width:768px) {
   .recomendations {
-    margin: 0 60px 60px 60px;
+    margin: 0 60px 60px 0;
   }
 }
