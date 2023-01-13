@@ -30,6 +30,11 @@
 
 body {
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
 .header {
@@ -54,8 +59,9 @@ a:hover {
   line-height: 27px;
   text-transform: uppercase;
   cursor: pointer;
-  color: #ffbc5b;
+  color: #FFBC5B;
 }
+
 .myKino:hover {
   transform: scale(1.2);
   opacity: 1;
@@ -97,6 +103,10 @@ a:hover {
   background: #141414;
 }
 
+.lupa {
+  display: flex;
+}
+
 .search:hover {
   transform: scale(1.4);
 }
@@ -112,7 +122,16 @@ a:hover {
   font-size: 30px;
   color: #ffbc5b;
   margin: 80px 120px 120px 120px;
+}
+
+p {
+  max-width: 350px;
+  height: auto;
+}
+
+p:hover {
   cursor: pointer;
+  color: white;
 }
 
 .postors1 {
@@ -122,7 +141,7 @@ a:hover {
 
 .text {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   color: #989898;
   margin-top: 10px;
 }
@@ -131,7 +150,7 @@ a:hover {
   color: #515151;
   font-weight: 500;
   margin-top: 3px;
-  font-size: 14px;
+  font-size: 16px;
   cursor: default;
 }
 
@@ -156,9 +175,15 @@ a:hover {
   border-radius: 15px;
 }
 
-.lupa:hover {
-  transform: scale(1.2);
+.ollKino:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
   cursor: pointer;
+}
+
+.ollKino>a:hover {
+  color: white;
+  transform: rotate(180deg);
 }
 
 .recomendations {
@@ -168,7 +193,6 @@ a:hover {
   font-size: 30px;
   color: #ffbc5b;
   margin: 100px 120px 120px 120px;
-  cursor: pointer;
 }
 
 .postors2 {
@@ -200,4 +224,85 @@ a:hover {
 
 .rating {
   cursor: default;
+  width: 30px;
+  height: 20px;
+  margin: 15px;
+  padding: 5px 1px 5px 5px;
+  background-color: #ffbc5b;
+  color: black;
+  border-radius: 20%;
+  font-size: 20px;
+
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+
+  .postors1,
+  .postors2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+  .navigation {
+    margin: 40px 60px 60px 60px;
+  }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+
+  .text,
+  .info {
+    margin: 5px 0 0 0;
+    font-size: 25px;
+
+  }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+  .info {
+    margin: 0 0 20px 0;
+  }
+}
+
+@media (min-width:768px) and (max-width:1400px) {
+  .recomendations {
+    margin: 0 60px 60px 60px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .postors1,
+  .postors2 {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:768px) {
+
+  .text,
+  .info {
+    margin: 5px 0 0 0;
+    font-size: 25px;
+  }
+}
+
+@media (max-width:768px) {
+  .info {
+    margin: 0 0 30px 0;
+  }
+}
+
+@media (max-width:768px) {
+  .navigation {
+    margin: 0 0 60px 60px;
+  }
+}
+
+
+@media (max-width:768px) {
+  .recomendations {
+    margin: 0 60px 60px 60px;
+  }
 }
