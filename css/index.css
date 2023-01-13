@@ -37,8 +37,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0px auto;
-  padding: 0px auto;
   background: #141414;
 }
 
@@ -286,7 +284,9 @@ p:hover {
 
 @media (max-width:768px) {
 
-  .myKino, .shop, .myShop {
+  .myKino,
+  .shop,
+  .myShop {
     font-size: 10px;
     margin: 0 7px 0 0;
   }
