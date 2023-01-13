@@ -27,6 +27,9 @@
   font-family: "IBMPlexMono-Thin";
   src: url(../font/IBMPlexMono-Thin.ttf) format("ttf");
 }
+header {
+  background: #4520ab;
+}
 
 body {
   margin: 0;
@@ -35,6 +38,7 @@ body {
   justify-content: center;
   margin: 0px auto;
   padding: 0px auto;
+  background: #141414;
 }
 
 .header {
