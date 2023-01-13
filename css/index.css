@@ -1,33 +1,32 @@
 @font-face {
-  font-family: 'IBMPlexMono-Bold';
-  src: url(../font/IBMPlexMono-Bold.ttf) format('truetype');
+  font-family: "IBMPlexMono-Bold";
+  src: url(../font/IBMPlexMono-Bold.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'IBMPlexMono-Light';
-  src: url(../font/IBMPlexMono-Light.ttf) format('truetype');
+  font-family: "IBMPlexMono-Light";
+  src: url(../font/IBMPlexMono-Light.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'IBMPlexMono-Medium';
-  src: url(../font/IBMPlexMono-Medium.ttf) format('truetype');
+  font-family: "IBMPlexMono-Medium";
+  src: url(../font/IBMPlexMono-Medium.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'IBMPlexMono-Regular';
-  src: url(../font/IBMPlexMono-Regular.ttf) format('truetype');
+  font-family: "IBMPlexMono-Regular";
+  src: url(../font/IBMPlexMono-Regular.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'IBMPlexMono-SemiBold';
-  src: url(../font/IBMPlexMono-SemiBold.ttf) format('truetype');
+  font-family: "IBMPlexMono-SemiBold";
+  src: url(../font/IBMPlexMono-SemiBold.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'IBMPlexMono-Thin';
-  src: url(../font/IBMPlexMono-Thin.ttf) format('ttf');
+  font-family: "IBMPlexMono-Thin";
+  src: url(../font/IBMPlexMono-Thin.ttf) format("ttf");
 }
-
 
 body {
   margin: 0;
@@ -37,8 +36,6 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 1280px;
-  height: 80px;
   background: #4520ab;
 }
 
@@ -56,8 +53,8 @@ a:hover {
   font-size: 21px;
   line-height: 27px;
   text-transform: uppercase;
-  opacity: 0.3;
   cursor: pointer;
+  color: #FFBC5B;
 }
 .myKino:hover {
   transform: scale(1.2);
@@ -97,8 +94,6 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 1280px;
-  height: 1264px;
   background: #141414;
 }
 
@@ -116,7 +111,7 @@ a:hover {
   font-weight: 700;
   font-size: 30px;
   color: #ffbc5b;
-  margin: 50px;
+  margin: 80px 120px 120px 120px;
   cursor: pointer;
 }
 
@@ -172,13 +167,14 @@ a:hover {
   font-weight: 700;
   font-size: 30px;
   color: #ffbc5b;
-  margin: 100px 50px 50px 50px;
+  margin: 100px 120px 120px 120px;
   cursor: pointer;
 }
 
 .postors2 {
   display: flex;
   justify-content: space-between;
+  margin: 25px 0 0 0;
 }
 
 .img4 {
