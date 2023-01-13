@@ -1,7 +1,7 @@
 {
-  "name": "core-css-layout-site",
+  "name": "elbrus-kino-flex",
   "version": "1.0.0",
-  "description": "Продолжим создавать оригинальные веб-страницы. Теперь тебе предстоит создать собственный сайт!",
+  "description": "### Введение",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Elbrus-Bootcamp/core-css-layout-site.git"
+    "url": "git+https://github.com/Elbrus-Bootcamp/elbrus-kino-flex.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Elbrus-Bootcamp/core-css-layout-site/issues"
+    "url": "https://github.com/Elbrus-Bootcamp/elbrus-kino-flex/issues"
   },
-  "homepage": "https://github.com/Elbrus-Bootcamp/core-css-layout-site#readme",
+  "homepage": "https://github.com/Elbrus-Bootcamp/elbrus-kino-flex#readme",
   "devDependencies": {
     "husky": "^8.0.0",
     "pretty-quick": "^3.1.3"
