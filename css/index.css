@@ -1,0 +1,242 @@
+@font-face {
+  font-family: IBM Plex Mono;
+  src: url(../font/IBMPlexMono-Light.ttf);
+}
+
+body {
+  margin: 100px;
+  font-family: IBM Plex Mono;
+}
+
+ol {
+  margin: 0;
+}
+
+li {
+  height: 38px;
+  padding: 18px 10px 2px 10px;
+}
+
+hr {
+  width: 210px;
+  border: 1px solid black;
+  margin: 0;
+}
+
+li::marker {
+  border: 1px solid black;
+  color: gray;
+  display: none;
+}
+.tooltip {
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  white-space: nowrap;
+  width: 110px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  left: 350px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltip2 {
+  overflow: hidden;
+  /* text-overflow: ellipsis; */
+  white-space: nowrap;
+  width: 110px;
+  margin: 0 0 0 30px;
+}
+
+.tooltip2 .tooltiptext2 {
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 5px;
+  position: absolute;
+  left: 570px;
+}
+
+.tooltip2:hover .tooltiptext2 {
+  visibility: visible;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.columText {
+  display: block;
+}
+
+.nameSite {
+  font-weight: 600;
+  font-size: 50px;
+  color: #4520ab;
+  margin: 0 0 100px 0;
+}
+
+.writeText {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin: 0 0 80px 0;
+}
+
+.input {
+  font-size: 25px;
+  width: 500px;
+  padding: 10px;
+  border: 2px solid #111111;
+  border-radius: 14px;
+}
+
+.buttonAdd {
+  margin: 0 0 0 -115px;
+}
+
+.button1 {
+  cursor: pointer;
+  padding: 5px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  width: 107px;
+}
+
+.tabel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.tabelLeft {
+  background-color: #f0f0f0;
+  border-radius: 8px 0 0 8px;
+  width: 250px;
+  border: solid 1px;
+  border-color: transparent black transparent transparent;
+}
+
+.tabelRigth {
+  padding: 0 10px 0 0;
+  background-color: #c7c5c5;
+  border-radius: 0px 8px 8px 0px;
+  width: 250px;
+  border: solid 1px;
+  border-color: transparent transparent transparent black;
+}
+
+.text {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.notNumber {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 58px;
+}
+
+.deliteTranslite {
+  background: url(./Group\ 1.svg) no-repeat top left;
+  background-color: #adadad;
+  border-radius: 100%;
+  padding: 9px;
+  cursor: pointer;
+  border: 1;
+  width: 18px;
+  height: 18px;
+  opacity: 70%;
+}
+
+.imgCenter {
+  position: relative;
+}
+
+.clearAll {
+  background: url(./Group\ 1.svg) no-repeat;
+  background-position: top 50% left 3%;
+  background-size: 28px;
+  margin: 80px 0 0 0;
+  width: 200px;
+  font-size: 18px;
+  background-color: #adadad;
+  border-radius: 8px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .nameSite {
+    width: 336px;
+    font-size: 40px;
+    margin: 0 0 50px 0;
+  }
+  body {
+    margin: 70px;
+  }
+  .writeText {
+    margin: 0 0 50px 0;
+  }
+  .clearAll {
+    margin: 50px 0 0 0;
+    width: 176px;
+    background-position: top 50% left 1%;
+  }
+}
+
+@media (max-width: 768px) {
+  .nameSite {
+    width: 308px;
+    font-size: 32px;
+    margin: 0 0 30px 0;
+  }
+  body {
+    margin: 30px;
+  }
+  .writeText {
+    margin: 0 0 30px 0;
+    width: 328px;
+  }
+  .clearAll {
+    margin: 30px 0 0 0;
+    width: 176px;
+    background-position: top 50% left 1%;
+  }
+  .input {
+    font-size: 15px;
+  }
+  .button1 {
+    width: 107px;
+    font-size: 16px;
+  }
+  .tabel {
+    width: 328px;
+  }
+  .tabelRigth {
+    width: 172px;
+  }
+  .tabelLeft {
+    width: 172px;
+  }
+}
