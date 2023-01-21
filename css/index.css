@@ -3,9 +3,37 @@
   src: url(../font/IBMPlexMono-Light.ttf);
 }
 
+@keyframes slowSpawn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
+  }
+}
+
+@keyframes backgroundColorTableLeft {
+  0% {
+    background-color: #e6f8f8;
+  }
+  100% {
+    background-color: #f0f0f0;
+  }
+}
+
+@keyframes backgroundColorTabRight {
+  0% {
+    background-color: #e6f8f8;
+  }
+  100% {
+    background-color: #c7c5c5;
+  }
+}
+
 body {
   margin: 100px;
   font-family: IBM Plex Mono;
+  animation: slowSpawn 1s;
 }
 
 ol {
@@ -16,6 +44,8 @@ ol {
 li {
   height: 38px;
   padding: 18px 10px 2px 30px;
+  animation: slowSpawn 1.5s;
+  animation: backgroundColorTableLeft 1.5s;
 }
 
 hr {
@@ -37,7 +67,7 @@ li::marker {
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  background-color: white;
+  background-color: #e6f8f8;
   color: black;
   text-align: center;
   border-radius: 6px;
@@ -47,6 +77,7 @@ li::marker {
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  animation: slowSpawn 1.5s;
 }
 
 .tooltip2 {
@@ -57,7 +88,7 @@ li::marker {
 
 .tooltip2 .tooltiptext2 {
   visibility: hidden;
-  background-color: white;
+  background-color: #e6f8f8;
   color: black;
   text-align: center;
   border-radius: 6px;
@@ -68,6 +99,7 @@ li::marker {
 
 .tooltip2:hover .tooltiptext2 {
   visibility: visible;
+  animation: slowSpawn 1.5s;
 }
 
 .center {
@@ -102,6 +134,7 @@ li::marker {
   padding: 10px;
   border: 2px solid #111111;
   border-radius: 14px;
+  color: #4520ab;
 }
 
 .buttonAdd {
@@ -116,6 +149,13 @@ li::marker {
   color: white;
   border-radius: 8px;
   width: 107px;
+}
+
+#button1:hover {
+  transform: scale(1.1);
+  background-color: #e6f8f8;
+  transition: 0.3s;
+  color: black;
 }
 
 .tabel {
@@ -152,6 +192,8 @@ li::marker {
   justify-content: space-between;
   align-items: center;
   height: 58px;
+  animation: slowSpawn 1.5s;
+  animation: backgroundColorTabRight 1.5s;
 }
 
 .deliteTranslite {
@@ -183,6 +225,13 @@ li::marker {
   height: 40px;
   cursor: pointer;
   outline: none;
+  color: black;
+}
+
+#clearAll:hover {
+  transform: scale(1.1);
+  background-color: #e6f8f8;
+  transition: 0.3s;
   color: black;
 }
 
